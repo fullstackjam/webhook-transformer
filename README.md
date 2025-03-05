@@ -16,7 +16,7 @@ There's a pre-compiled Docker image that you can use:
 docker run \
     -p 8080 \
     -v /path/to/config.jsonnet:/config.jsonnet \
-    ghcr.io/khuedoan/webhook-transformer:v0.0.1 --config /config.jsonnet
+    ghcr.io/fullstackjam/webhook-transformer:v0.0.3 --config /config.jsonnet
 ```
 
 The transformer automatically injects some global variables:
